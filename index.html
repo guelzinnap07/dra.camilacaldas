@@ -94,12 +94,12 @@
         </div>
     </section>
 
-    <!-- Quem é a Dra. Camila Caldas -->
+    <!-- Quem é a Dra. Camila Caldas (Com a foto Screenshot_20261028-075143.jpg) -->
     <section class="py-16 md:py-20 px-4 bg-white border-b border-slate-100">
         <div class="max-w-5xl mx-auto grid md:grid-cols-12 gap-8 md:gap-12 items-center">
             <div class="md:col-span-5 flex justify-center">
                 <div class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-xl border-4 border-slate-50">
-                    <img src="foto-dra-camila.jpg" alt="Dra. Camila Caldas" class="w-full h-96 object-cover object-top bg-slate-200" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500?text=Dra.+Camila+Caldas';">
+                    <img src="Screenshot_20261028-075143.jpg" alt="Dra. Camila Caldas" class="w-full h-96 object-cover object-top bg-slate-200" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500?text=Dra.+Camila+Caldas';">
                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/40 to-transparent p-4 text-white text-center">
                         <p class="font-serif-title font-bold text-lg">Dra. Camila Caldas</p>
                         <p class="text-xs text-brand-gold font-medium">CRO-SP 96504</p>
@@ -134,7 +134,7 @@
         </div>
     </section>
 
-    <!-- Especialidades / Tratamentos -->
+    <!-- Especialidades / Tratamentos (Com fotos de fundo e overlay escuro para leitura) -->
     <section id="especialidades" class="py-16 md:py-24 px-4 bg-slate-50">
         <div class="max-w-5xl mx-auto space-y-12">
             <div class="text-center space-y-3 max-w-2xl mx-auto">
@@ -144,70 +144,87 @@
             </div>
 
             <div class="grid md:grid-cols-2 gap-6 md:gap-8">
-                <!-- Implante -->
-                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                
+                <!-- Implante Dentário (images (2).jpeg) -->
+                <div class="relative rounded-2xl overflow-hidden shadow-md group min-h-[320px] flex flex-col justify-end p-6 md:p-8 text-white">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('images (2).jpeg');"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/80 to-slate-900/40"></div>
+                    
+                    <div class="relative z-10 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-brand-gold flex items-center justify-center text-xl">
                             <i class="fas fa-tooth"></i>
                         </div>
-                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Implante Dentário</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">
+                        <h3 class="font-serif-title text-xl font-bold text-white">Implante Dentário</h3>
+                        <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-light">
                             A solução ideal para repor dentes perdidos de forma segura e duradoura. Consiste na fixação de um pino de titânio no osso, que serve como base sólida para a prótese, restaurando com perfeição a função e a estética.
                         </p>
                     </div>
                 </div>
 
-                <!-- Reabilitação Oral -->
-                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                <!-- Reabilitação Oral (Usando orto-foto.jpg ou outra correspondente) -->
+                <div class="relative rounded-2xl overflow-hidden shadow-md group min-h-[320px] flex flex-col justify-end p-6 md:p-8 text-white">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('orto-foto.jpg');"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/80 to-slate-900/40"></div>
+                    
+                    <div class="relative z-10 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-brand-gold flex items-center justify-center text-xl">
                             <i class="fas fa-smile"></i>
                         </div>
-                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Reabilitação Oral</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">
+                        <h3 class="font-serif-title text-xl font-bold text-white">Reabilitação Oral</h3>
+                        <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-light">
                             Conjunto completo de tratamentos odontológicos planejados de forma personalizada para devolver a saúde bucal, a capacidade mastigatória, a fonética e a harmonia estética da face.
                         </p>
                     </div>
                 </div>
 
-                <!-- Ortodontia -->
-                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                <!-- Ortodontia (images (1).jpeg) -->
+                <div class="relative rounded-2xl overflow-hidden shadow-md group min-h-[320px] flex flex-col justify-end p-6 md:p-8 text-white">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('images (1).jpeg');"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/80 to-slate-900/40"></div>
+                    
+                    <div class="relative z-10 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-brand-gold flex items-center justify-center text-xl">
                             <i class="fas fa-align-center"></i>
                         </div>
-                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Ortodontia</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">
+                        <h3 class="font-serif-title text-xl font-bold text-white">Ortodontia</h3>
+                        <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-light">
                             Com aparelhos fixos ou alinhadores invisíveis, alinhamos seus dentes para um resultado harmonioso. Previne o desgaste dentário e dificuldades na mastigação, além de facilitar a higienização.
                         </p>
                     </div>
                 </div>
 
-                <!-- Restauração e Estética -->
-                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                <!-- Restauração e Estética (restauracao-estetica(1).jpg) -->
+                <div class="relative rounded-2xl overflow-hidden shadow-md group min-h-[320px] flex flex-col justify-end p-6 md:p-8 text-white">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('restauracao-estetica(1).jpg');"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/80 to-slate-900/40"></div>
+                    
+                    <div class="relative z-10 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-brand-gold flex items-center justify-center text-xl">
                             <i class="fas fa-sparkles"></i>
                         </div>
-                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Restauração e Estética</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">
+                        <h3 class="font-serif-title text-xl font-bold text-white">Restauração e Estética</h3>
+                        <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-light">
                             Recuperação da estrutura dentária danificada por cáries ou fraturas. Inclui facetamento em resina ou cerâmica e clareamento dental para um sorriso naturalmente bonito e luminoso.
                         </p>
                     </div>
                 </div>
 
-                <!-- Restauração NEDS -->
-                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between md:col-span-2">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-gold flex items-center justify-center text-2xl">
+                <!-- Restauração NEDS (restarucaodentaria.jpg) -->
+                <div class="relative rounded-2xl overflow-hidden shadow-md group min-h-[320px] flex flex-col justify-end p-6 md:p-8 text-white md:col-span-2">
+                    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('restarucaodentaria.jpg');"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/80 to-slate-900/40"></div>
+                    
+                    <div class="relative z-10 space-y-3">
+                        <div class="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-brand-gold flex items-center justify-center text-xl">
                             <i class="fas fa-shield-halved"></i>
                         </div>
-                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Restauração Posterior (Técnica NEDS)</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">
+                        <h3 class="font-serif-title text-xl font-bold text-white">Restauração Posterior (Técnica NEDS)</h3>
+                        <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-light max-w-2xl">
                             Restaurações de alta precisão que vão além da estética. A técnica NEDS distribui perfeitamente as forças mastigatórias, substituindo naturalmente a dentina e o esmalte e respeitando a anatomia interna original do dente.
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -234,7 +251,7 @@
                 </div>
             </div>
 
-            <div>
+                        <div>
                 <a href="https://g.page/r/CeO8V2HlHHV9EBM/review" target="_blank" class="inline-flex items-center gap-2 text-brand-medium hover:text-brand-dark font-semibold text-sm transition underline underline-offset-4">
                     <i class="fab fa-google"></i> Deixe ou veja todas as avaliações no perfil do Google
                 </a>
@@ -276,5 +293,4 @@
     </a>
 
 </body>
-</html>                                                                           </html>
-                                                                            
+</html>
