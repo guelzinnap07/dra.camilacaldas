@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Camila Caldas | Reabilitação Oral & Odontologia Restauradora</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#2c435e',
+                            medium: '#3a5676',
+                            light: '#eef4f8',
+                            gold: '#c2a15f',
+                            goldHover: '#a88948',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .font-serif-title { font-family: 'Cinzel', serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- Top Notice Bar -->
+    <div class="bg-brand-dark text-slate-200 text-xs py-2 px-4 text-center border-b border-slate-700/50">
+        <span>📍 Atendimento especializado em Odontologia Restauradora & Reabilitação Oral</span>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 transition-all">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full border border-brand-gold/40 flex items-center justify-center bg-brand-light text-brand-gold font-serif-title font-bold text-lg">
+                    CC
+                </div>
+                <div>
+                    <h1 class="font-serif-title text-base md:text-lg font-bold text-brand-dark leading-tight tracking-wide">
+                        CAMILA CALDAS
+                    </h1>
+                    <p class="text-[10px] md:text-xs text-slate-500 font-medium tracking-wider">
+                        CRO-SP 96504
+                    </p>
+                </div>
+            </div>
+            <a href="https://wa.me/5513978040770?text=Olá%2C%20Dra.%20Camila!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs md:text-sm font-semibold px-4 py-2.5 rounded-full transition-all flex items-center gap-2 shadow-sm hover:shadow">
+                <i class="fab fa-whatsapp text-base"></i>
+                <span class="hidden sm:inline">Marcar Consulta</span>
+                <span class="sm:hidden">Agendar</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-b from-brand-dark via-brand-medium to-brand-dark text-white py-16 md:py-24 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#c2a15f_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10 space-y-6">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-brand-gold/30 text-brand-gold text-xs font-semibold tracking-wider uppercase backdrop-blur-sm">
+                <i class="fas fa-gem text-[10px]"></i> Saúde Bucal & Estética do Sorriso
+            </div>
+            
+            <h2 class="font-serif-title text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+                Transformando sorrisos,<br/>resgatando a sua autoestima.
+            </h2>
+            
+            <p class="text-slate-200 text-sm md:text-lg max-w-2xl mx-auto leading-relaxed font-light">
+                Tratamentos odontológicos modernos, precisos e humanizados para devolver a estética e a função mastigatória ao seu dia a dia.
+            </p>
+            
+            <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://wa.me/5513978040770?text=Olá%2C%20Dra.%20Camila!%20Gostaria%20de%20marcar%20uma%20avaliação." target="_blank" class="w-full sm:w-auto bg-brand-gold hover:bg-brand-goldHover text-brand-dark font-bold px-8 py-4 rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-3 text-base">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    <span>Marcar consulta agora</span>
+                </a>
+                <a href="#especialidades" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-medium px-6 py-4 rounded-xl transition backdrop-blur-sm border border-white/10 text-base">
+                    Conhecer Tratamentos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quem é a Dra. Camila Caldas -->
+    <section class="py-16 md:py-20 px-4 bg-white border-b border-slate-100">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-12 gap-8 md:gap-12 items-center">
+            <div class="md:col-span-5 flex justify-center">
+                <div class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-xl border-4 border-slate-50">
+                    <img src="foto-dra-camila.jpg" alt="Dra. Camila Caldas" class="w-full h-96 object-cover object-top bg-slate-200" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500?text=Dra.+Camila+Caldas';">
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/40 to-transparent p-4 text-white text-center">
+                        <p class="font-serif-title font-bold text-lg">Dra. Camila Caldas</p>
+                        <p class="text-xs text-brand-gold font-medium">CRO-SP 96504</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:col-span-7 space-y-5">
+                <div class="inline-block border-l-2 border-brand-gold pl-3">
+                    <span class="text-xs font-bold text-brand-medium uppercase tracking-widest block">Sobre a Profissional</span>
+                    <h2 class="font-serif-title text-2xl md:text-3xl font-bold text-brand-dark">Quem é a Dra. Camila Caldas?</h2>
+                </div>
+                
+                <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                    Sou dentista formada há 15 anos pela Universidade Metropolitana de Santos. Decidi seguir a odontologia aos 14 anos e me especializei em Dentística Restauradora, com pós-graduação em Reabilitação Oral e mestrado na área.
+                </p>
+                <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+                    Minha paixão pela profissão vai além da estética, pois vejo cada sorriso conquistado como uma contribuição para o bem-estar e a felicidade dos meus pacientes. Busco criar um ambiente acolhedor, onde cada pessoa se sinta valorizada e compreendida.
+                </p>
+                
+                <div class="pt-2 grid grid-cols-2 gap-4 border-t border-slate-100">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-lg bg-brand-light flex items-center justify-center text-brand-medium font-bold text-lg">15+</div>
+                        <span class="text-xs text-slate-600 font-medium">Anos de experiência clínica</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-lg bg-brand-light flex items-center justify-center text-brand-medium text-lg"><i class="fas fa-graduation-cap"></i></div>
+                        <span class="text-xs text-slate-600 font-medium">Mestre & Especialista</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades / Tratamentos -->
+    <section id="especialidades" class="py-16 md:py-24 px-4 bg-slate-50">
+        <div class="max-w-5xl mx-auto space-y-12">
+            <div class="text-center space-y-3 max-w-2xl mx-auto">
+                <span class="text-xs font-bold text-brand-gold uppercase tracking-widest">Excelência em Odontologia</span>
+                <h2 class="font-serif-title text-3xl md:text-4xl font-bold text-brand-dark">Nossas Especialidades</h2>
+                <p class="text-slate-600 text-sm md:text-base">Técnicas avançadas e tratamentos personalizados para a sua saúde bucal.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+                <!-- Implante -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Implante Dentário</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            A solução ideal para repor dentes perdidos de forma segura e duradoura. Consiste na fixação de um pino de titânio no osso, que serve como base sólida para a prótese, restaurando com perfeição a função e a estética.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Reabilitação Oral -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Reabilitação Oral</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Conjunto completo de tratamentos odontológicos planejados de forma personalizada para devolver a saúde bucal, a capacidade mastigatória, a fonética e a harmonia estética da face.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ortodontia -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                            <i class="fas fa-align-center"></i>
+                        </div>
+                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Ortodontia</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Com aparelhos fixos ou alinhadores invisíveis, alinhamos seus dentes para um resultado harmonioso. Previne o desgaste dentário e dificuldades na mastigação, além de facilitar a higienização.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Restauração e Estética -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-medium flex items-center justify-center text-2xl">
+                            <i class="fas fa-sparkles"></i>
+                        </div>
+                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Restauração e Estética</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Recuperação da estrutura dentária danificada por cáries ou fraturas. Inclui facetamento em resina ou cerâmica e clareamento dental para um sorriso naturalmente bonito e luminoso.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Restauração NEDS -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md transition-all flex flex-col justify-between md:col-span-2">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-light text-brand-gold flex items-center justify-center text-2xl">
+                            <i class="fas fa-shield-halved"></i>
+                        </div>
+                        <h3 class="font-serif-title text-xl font-bold text-brand-dark">Restauração Posterior (Técnica NEDS)</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Restaurações de alta precisão que vão além da estética. A técnica NEDS distribui perfeitamente as forças mastigatórias, substituindo naturalmente a dentina e o esmalte e respeitando a anatomia interna original do dente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Google -->
+    <section class="py-16 px-4 bg-brand-light/60 border-y border-slate-200/60">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <div class="space-y-2">
+                <div class="flex justify-center text-amber-400 text-lg gap-1">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <h2 class="font-serif-title text-2xl md:text-3xl font-bold text-brand-dark">A opinião dos nossos pacientes</h2>
+                <p class="text-slate-600 text-sm">Transparência e carinho em cada atendimento no consultório.</p>
+            </div>
+
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 max-w-2xl mx-auto text-left relative">
+                <i class="fas fa-quote-left text-brand-light text-4xl absolute top-4 right-4"></i>
+                <p class="text-slate-700 text-sm md:text-base italic leading-relaxed relative z-10">
+                    "Excelente profissional! Atendimento impecável, consultório super aconchegante e resultados incríveis. Recomendo de olhos fechados para quem busca um tratamento sério e humano!"
+                </p>
+                <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                    <span class="text-xs font-bold text-brand-dark">— Paciente Verificado</span>
+                    <span class="text-xs text-slate-400 flex items-center gap-1"><i class="fab fa-google text-slate-500"></i> Avaliação do Google</span>
+                </div>
+            </div>
+
+            <div>
+                <a href="https://g.page/r/CeO8V2HlHHV9EBM/review" target="_blank" class="inline-flex items-center gap-2 text-brand-medium hover:text-brand-dark font-semibold text-sm transition underline underline-offset-4">
+                    <i class="fab fa-google"></i> Deixe ou veja todas as avaliações no perfil do Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Call to Action -->
+    <section class="bg-brand-dark text-white py-16 px-4 text-center">
+        <div class="max-w-3xl mx-auto space-y-6">
+            <h2 class="font-serif-title text-3xl md:text-4xl font-bold">VAMOS CONVERSAR?</h2>
+            <p class="text-slate-300 text-sm md:text-base">Agende a sua consulta de avaliação e venha cuidar do seu sorriso com quem entende do assunto.</p>
+            
+            <p class="text-2xl md:text-3xl font-bold text-brand-gold tracking-wide font-serif-title">(13) 97804-0770</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+                <a href="https://wa.me/5513978040770?text=Olá%2C%20Dra.%20Camila!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-8 py-3.5 rounded-full transition flex items-center justify-center gap-2 text-sm shadow-md">
+                    <i class="fab fa-whatsapp text-lg"></i> Fale conosco pelo WhatsApp
+                </a>
+                <a href="https://instagram.com" target="_blank" class="bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90 text-white font-bold px-8 py-3.5 rounded-full transition flex items-center justify-center gap-2 text-sm shadow-md">
+                    <i class="fab fa-instagram text-lg"></i> Siga no Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-8 px-4 text-center text-xs mt-auto">
+        <div class="max-w-5xl mx-auto space-y-3">
+            <p class="font-serif-title font-bold text-slate-300 text-sm">DRA. CAMILA CALDAS</p>
+            <p>Reabilitação Oral & Odontologia Restauradora | CRO-SP 96504</p>
+            <p class="text-slate-600 pt-2">© 2026 Todos os direitos reservados. Desenvolvido por Miguel.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5513978040770?text=Olá%2C%20Dra.%20Camila!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl transition-all duration-300 z-50 hover:scale-110 active:scale-95" title="Falar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>                                                                           </html>
+                                                                            
